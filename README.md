@@ -45,6 +45,15 @@ Inputs are images like
 
 <img src="assets/example.png" alt="Chest X-ray" width="300" height="300"/>
 
+and the output in ```Qwen_outputs.json``` will include and entry like:
+
+```
+"sub-S05368_ses-E10010_run-1_bp-chest_vp-pa_dx-corrected.png": {
+    "text": "This is a posterior-anterior (PA) view of a chest x-ray. Here's a detailed description and analysis:\n\n1. **Lungs:**\n   - The lung fields appear relatively clear without any obvious signs of consolidation, pleural effusion, or masses.\n   - The lung markings are visible but not particularly prominent, which could be due to the patient's age or underlying lung condition.\n\n2. **Heart:**\n   - The heart size appears within normal limits for this view.\n   - There are no obvious signs of cardiomegaly or pericardial effusion.\n\n3. **Bones:**\n   -",
+    "true_label": "negative"
+  },
+  ```
+
 
 
 ## Notes
