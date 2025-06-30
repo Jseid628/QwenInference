@@ -1,0 +1,17 @@
+# Ignore Qwen model folder if saved locally
+Qwen/
+
+# Ignore Hugging Face cached models
+~/.cache/huggingface/
+~/.huggingface/
+
+# Ignore dataset folder
+data/
+
+# Ignore outputs (optional)
+Qwen_outputs.json
+
+# Ignore environment files (optional)
+*.pyc
+__pycache__/
+.env
