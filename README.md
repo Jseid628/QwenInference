@@ -41,6 +41,12 @@ python inference_Qwen.py
 
 Running inference outputs a file ```Qwen_outputs.py``` containing descriptions of chest x-rays. 
 
+Inputs are images like 
+
+<img src="assets/example.png" alt="Chest X-ray" width="300" height="300"/>
+
+
+
 ## Notes
 Note that currently, inference is running on GPU 0. Change this setting as necessary.
 ```
